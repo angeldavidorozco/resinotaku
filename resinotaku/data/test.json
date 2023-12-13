@@ -1,0 +1,23 @@
+{
+    "keychains":{
+        "circle":23,
+        "hearts":12,
+        "hexagons":11,
+        "letters":27,
+        "rectangles":81,
+        "shakers":5
+    },
+    "collectibles":{
+        "bookmarks":9,
+        "pins":138
+    },
+    "mascots":{
+        "tags":2
+    },
+    "otaku_wear":{
+        "bracelets":1,
+        "charms":14,
+        "phone_pendant":72
+    }
+}
+
