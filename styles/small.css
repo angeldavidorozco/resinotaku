@@ -63,8 +63,12 @@
 
 }
 
-@media (max-width: 800px){
+@media (max-width: 630px){
 
-   
+    .hero .call{
+        top: 10%;
+        width: 90%;
+        
+    } 
 
 }

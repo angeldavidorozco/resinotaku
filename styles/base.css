@@ -48,7 +48,7 @@ a{
     position: relative;
     text-align: center;
     display: flex;
-    background-color: #555;
+    background-color: #8ee0fc;
     padding-bottom: 10px;
     
     
@@ -158,7 +158,16 @@ a{
 }
 
 .gallery{
-  grid-area: 1 / 2 / 3 / 3;
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.calendario li{
+  font-size: 30px;
+}
+
+.events, .advertisements{
+  max-height: 831px;
+  min-width: 418px;
 }
 
 footer{
@@ -477,10 +486,26 @@ nav a:hover{
 }
 
 .content .card{
-    max-width: 600px;
-    height: 715px;
-    display: flex;
-    justify-content: center;
+  max-width: 600px;
+  overflow-y: hidden;
+  scroll-behavior: auto;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.content .card img{
+  margin: 0 auto;
+  width: auto;
+  
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+}
+
+.card.prod > :first-child{
+  overflow-y:scroll;
 }
 
 .content p, .content ul{
